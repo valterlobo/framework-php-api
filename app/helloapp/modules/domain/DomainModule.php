@@ -21,9 +21,9 @@ class DomainModule implements IModule
     {
         return [
 
-            'db.host' => '67.205.189.154',
+            'db.host' => 'localhost',
             'db.user' => 'root',
-            'db.pass' => 'dev@100std1',
+            'db.pass' => 'root',
             'db.dbname' => 'data_example',
 
             PDO::class => function ($c) {
