@@ -1,0 +1,49 @@
+{
+    "name": "lobotech/api",
+    "version": "1.0.0",
+    "dist": {
+        "url": "/home/std1dev/composer/repo/",
+        "type": "zip"
+    },
+    "description": "Framework API - lobo.tech",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "lobotech\\": "src/lobotech" ,
+            "helloapp\\" : "app/helloapp"
+             
+        }
+    },
+    "require": {
+        "php-di/php-di": "^6.0",
+        "php-di/slim-bridge": "^2.0",
+        "monolog/monolog": "^2.0@beta",
+        "tuupola/slim-jwt-auth": "^3.2",
+        "tuupola/cors-middleware": "^0.9.2",
+        "tuupola/base62": "^2.0",
+        "tuupola/slim-basic-auth": "^3.2",
+        "firebase/php-jwt": "^5.0",
+        "swaggest/json-schema": "^0.12.7"
+       
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valter Lobo",
+            "email": "valterlobo@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+
+
+    "repositories": {
+        "dev-package": {
+          "type": "path",
+          "url": "/home/std1dev/composer/repo/",
+          "options": {
+            "symlink": true
+          }
+        }
+      }
+
+}
